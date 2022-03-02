@@ -1,11 +1,14 @@
 package sk.stuba.fei.uim.oop;
+
 import java.util.Arrays;
 
+/**
+ * dokumentacia triedy
+ */
 public class Main {
     public static void main(String[] args) {
         int x = 5;
         int[] y = new int[]{1, 2, 3};
-
 
         System.out.println(x);
         testPrimitive(x);
@@ -17,6 +20,11 @@ public class Main {
 
         testArraySpread("test",1, 2, 3, 4, 5);
     }
+
+    /**
+     * táto funkcia vypisuje cislo
+     * @param cislo - integer cislo
+     */
 
     public static void testPrimitive(int cislo) {
         cislo = 10;
