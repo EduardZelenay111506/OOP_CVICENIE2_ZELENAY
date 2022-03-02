@@ -14,11 +14,18 @@ public class Main {
         System.out.println(Arrays.toString(y));
         testArray(y);
         System.out.println(Arrays.toString(y));
+
+        testArraySpread("test",1, 2, 3, 4, 5);
     }
 
     public static void testPrimitive(int cislo) {
         cislo = 10;
         System.out.println(cislo);
+    }
+
+    public static void testArraySpread(String text, int... array) {
+        System.out.println(text);
+        System.out.println(Arrays.toString(array));
     }
 
     public static void testArray(int[] array) {
